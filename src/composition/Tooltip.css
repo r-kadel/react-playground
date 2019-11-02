@@ -2,9 +2,6 @@
     position: relative;
     cursor: pointer;
   }
-  .Tooltip-content {
-    color: #01A800;
-  }
   .Tooltip-message {
     background-color: hsla(0, 0%, 10%, 0.9);
     border-radius: 3px;
