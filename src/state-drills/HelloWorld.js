@@ -10,14 +10,7 @@ class HelloWorld extends React.Component {
     }
 
 
-    componentDidMount() {
-        let interval = setInterval(() => {
-            () => {
-                this.setState({count: this.state.count + 1})
-            }
-        }, 2000);
-        this.setState({ interval })
-      }
+    
 
     render() {
         return (
